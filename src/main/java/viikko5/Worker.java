@@ -9,11 +9,11 @@ public class Worker {
         this.role = role;
     }
 
-    public String getName() {
+    public String getWorkerName() {
         return name;
     }
 
-    public String getRole() {
+    public String getWorkerRole() {
         return role;
     }
 }
