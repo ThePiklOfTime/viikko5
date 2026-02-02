@@ -58,6 +58,7 @@ public class App
                 }
             }
         }
+        System.out.println("Kiitos ohjelman käytöstä.");
         scanner.close();
     }
 }
