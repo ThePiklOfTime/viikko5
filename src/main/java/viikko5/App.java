@@ -34,6 +34,7 @@ public class App
                     Worker worker = new Worker(name, role);
                     Machine machine = new Machine(type, model, worker);
                     factory.addMachine(machine);
+                    System.out.println("Kone lisätty!");
                     break;
                 case 2:
                     if (factory.getMachines().isEmpty()) {

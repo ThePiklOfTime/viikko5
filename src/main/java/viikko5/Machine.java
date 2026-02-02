@@ -12,6 +12,6 @@ public class Machine {
     }
 
     public String getMachineDetails() {
-        return "Koneen tiedot: " + type + ", " + model + "\nTyöntekijän tiedot: " + operator.getName();
+        return "Koneen tiedot: " + type + ", " + model + "\nTyöntekijän tiedot: " + operator.getName() + ", " + operator.getRole();
     }
 }
